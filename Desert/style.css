@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;    
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./images/8.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.navbar{
+    height: 10rem;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.row{
+    display: flex;
+    height: 78%;
+    align-items: center;
+  }
+  .col{
+      flex-basis: 50%;
+  }
+  h1{
+      color: #fff;
+      font-size: 4rem;
+  }
+  p{
+      color:#fff ;
+      font-size: 1rem;
+      line-height: 30px;
+  }
+  button{
+      background: #fff;
+      width: 12rem;
+      height: 1.9rem;
+      border: 0;
+      border-radius: 20px;
+      font-size: 1.0rem;
+      margin-top: 2rem;
+  }
+  .card{
+      width: 200px;
+      height: 230px;
+      display: inline-block;
+      border-radius: 10px;
+      padding: 15px 25px;
+      box-sizing: border-box;
+      cursor: pointer;
+      margin: 10px 15px;
+      background-image: url(./images/3.jpg);
+      background-position: center;
+      background-size: cover;
+  }
